@@ -7,8 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Image x:Name="boulder_creek" HorizontalAlignment="Left" Height="100" Margin="291,165,0,0" VerticalAlignment="Top" Width="100" Source="/boulderrr.png"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="190,265,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Image x:Name="boulder_creek" HorizontalAlignment="Left" Height="100" Margin="136,117,0,0" VerticalAlignment="Top" Width="100" Source="/boulderrr.png"/>
+        <Button x:Name="boulder" Content="boulder creek" HorizontalAlignment="Left" Margin="56,19,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBox x:Name="location1" HorizontalAlignment="Left" Margin="628,30,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="location" Content="location" HorizontalAlignment="Left" Margin="568,29,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="oconnor" HorizontalAlignment="Left" Height="100" Margin="136,247,0,0" VerticalAlignment="Top" Width="100" Source="/oconner.jpg"/>
+        <Image x:Name="liberty" HorizontalAlignment="Left" Height="100" Margin="336,222,0,0" VerticalAlignment="Top" Width="100" Source="/liberty.jpg"/>
+        <Button x:Name="oconnor2" Content="oconnor" HorizontalAlignment="Left" Margin="162,15,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Button x:Name="liberty1" Content="liberty" HorizontalAlignment="Left" Margin="253,19,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="mascot" Content="mascot" HorizontalAlignment="Left" Margin="568,73,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="population" Content="population" HorizontalAlignment="Left" Margin="568,117,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="fun_fact" Content="fun fact" HorizontalAlignment="Left" Margin="568,167,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="mascot1" HorizontalAlignment="Left" Margin="628,77,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="pop" HorizontalAlignment="Left" Margin="641,121,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="fact" HorizontalAlignment="Left" Margin="628,175,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
