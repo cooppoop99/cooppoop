@@ -1,2 +1,4 @@
-# SY24-25
-# Cooper
+<body>
+weight
+<img src="weight.jpg"></img>
+<body>

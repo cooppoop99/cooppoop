@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dean's Hair Journey</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Dean's Hair</div>
+            <nav>
+                <ul>
+                    <li><a href="#intro">Introduction</a></li>
+                    <li><a href="#timeline">Hair Timeline</a></li>
+                    <li><a href="#facts">Fun Facts</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="intro">
+        <div class="container">
+            <h1>Dean's Hair: A Journey Through Time</h1>
+            <p class="description">From short to long, the evolution of Dean's hair has been nothing short of extraordinary. In this website, we explore how long Dean's hair really is and how it has evolved over time.</p>
+            <div class="cta">
+                <button class="btn" onclick="scrollToSection('timeline')">Explore the Timeline</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline" class="timeline">
+        <div class="container">
+            <h2>The Hair Timeline</h2>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Year 1: The Beginning</h3>
+                    <p>The first year of Dean’s hair growth was all about short and manageable. It was a modest start.</p>
+                </div>
+            </div>
+            <div class="timeline-item reverse">
+                <div class="timeline-content">
+                    <h3>Year 2: Early Growth</h3>
+                    <p>Dean's hair started to grow longer, reaching a notable length. It was becoming clear: this hair journey had potential!</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Year 3: Mid-Length Achieved</h3>
+                    <p>By year 3, Dean’s hair reached a length that required more maintenance. A true sign of dedication!</p>
+                </div>
+            </div>
+            <div class="timeline-item reverse">
+                <div class="timeline-content">
+                    <h3>Year 4: Almost There</h3>
+                    <p>Dean’s hair was nearly at the desired length. It was clear that this was more than just a trend; it was a commitment.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Year 5: The Ultimate Length</h3>
+                    <p>Dean finally reached the pinnacle of hair growth: floor-length hair, a true achievement in dedication and patience!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="facts" class="facts">
+        <div class="container">
+            <h2>Fun Facts About Dean's Hair</h2>
+            <div class="fact-card">
+                <h3>Longest Growth Period</h3>
+                <p>Dean’s hair took a total of 5 years to reach its ultimate length, making it one of the most impressive hair journeys ever!</p>
+            </div>
+            <div class="fact-card">
+                <h3>Haircare Routine</h3>
+                <p>Dean followed a strict haircare routine, including weekly oil treatments and monthly trims to keep his hair healthy.</p>
+            </div>
+            <div class="fact-card">
+                <h3>Weather Resistance</h3>
+                <p>Even in Arizona's hot summers, Dean’s hair stayed manageable thanks to natural oils and a healthy lifestyle.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="image-grid">
+                <div class="image-item">
+                    <img src="https://via.placeholder.com/400x300?text=Hair+Year+1" alt="Year 1 Hair">
+                </div>
+                <div class="image-item">
+                    <img src="https://via.placeholder.com/400x300?text=Hair+Year+2" alt="Year 2 Hair">
+                </div>
+                <div class="image-item">
+                    <img src="https://via.placeholder.com/400x300?text=Hair+Year+3" alt="Year 3 Hair">
+                </div>
+                <div class="image-item">
+                    <img src="https://via.placeholder.com/400x300?text=Hair+Year+4" alt="Year 4 Hair">
+                </div>
+                <div class="image-item">
+                    <img src="https://via.placeholder.com/400x300?text=Hair+Year+5" alt="Year 5 Hair">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Dean's Hair Journey. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+<style>
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #fafafa;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* Header */
+    header {
+        background-color: #1e3d58;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .navbar .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+
+    nav ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-weight: 500;
+                text-transform: uppercase;
+                font-size: 1.1rem;
+            }
+
+                nav ul li a:hover {
+                    color: #f0b90b;
+                }
+
+    /* Introduction Section */
+    #intro {
+        background: linear-gradient(135deg, #1e3d58, #ff7f50);
+        color: white;
+        padding: 60px 0;
+        text-align: center;
+    }
+
+        #intro h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        #intro .description {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+
+        #intro .cta .btn {
+            padding: 12px 25px;
+            font-size: 1rem;
+            background-color: #f0b90b;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            #intro .cta .btn:hover {
+                background-color: #e08907;
+            }
+
+    /* Timeline Section */
+    .timeline {
+        padding: 40px 0;
+        background-color: #fff;
+    }
+
+        .timeline h2 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+    .timeline-item {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 30px;
+        transition: transform 0.3s ease;
+    }
+
+        .timeline-item.reverse {
+            flex-direction: row-reverse;
+        }
+
+        .timeline-item .timeline-content {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 10px;
+            width: 45%;
+        }
+
+            .timeline-item .timeline-content h3 {
+                font-size: 1.6rem;
+                font-weight: 600;
+                color: #333;
+                margin-bottom: 10px;
+            }
+
+            .timeline-item .timeline-content p {
+                font-size: 1.1rem;
+                color
+</style>
