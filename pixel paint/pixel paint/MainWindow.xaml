@@ -7,78 +7,582 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Rectangle x:Name="p00" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="65,37,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p03" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="268,37,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p01" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="133,37,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p02" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="200,37,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p04" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="336,37,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p05" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="65" Margin="403,37,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p06" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="468,37,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p07" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="532,37,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p10" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="64" Margin="65,70,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p20" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="65,105,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p30" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="65,139,0,0" Stroke="Black"/>
-        <Rectangle HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="65,173,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p50" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="65,207,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p60" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="65,241,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p70" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="65,279,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p40" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="65,173,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p11" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="64" Margin="133,70,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p21" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="133,105,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p31" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="133,139,0,0" Stroke="Black"/>
-        <Rectangle HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="133,173,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p51" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="133,207,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p61" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="133,241,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p71" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="133,279,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p41" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="133,173,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p12" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="64" Margin="197,69,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p22" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="197,104,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p32" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="197,138,0,0" Stroke="Black"/>
-        <Rectangle HorizontalAlignment="Left" Height="33" VerticalAlignment="Center" Width="64" Margin="197,0,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p52" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="197,205,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p62" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="197,239,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p72" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="197,277,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p42" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="197,172,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p13" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="64" Margin="268,70,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p23" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="268,105,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p33" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="268,139,0,0" Stroke="Black"/>
-        <Rectangle HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="268,173,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p53" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="268,207,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p63" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="268,241,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p73" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="268,279,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p43" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="268,173,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p14" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="64" Margin="336,70,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p24" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="336,105,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p34" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="336,139,0,0" Stroke="Black"/>
-        <Rectangle HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="336,173,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p54" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="336,207,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p64" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="336,241,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p74" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="336,279,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p44" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="336,173,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p15" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="64" Margin="400,70,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p25" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="400,105,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p35" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="400,139,0,0" Stroke="Black"/>
-        <Rectangle HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="400,173,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p55" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="400,207,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p65" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="400,241,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p75" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="400,279,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p45" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="400,173,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p16" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="64" Margin="464,69,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p26" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="464,104,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p36" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="464,138,0,0" Stroke="Black"/>
-        <Rectangle HorizontalAlignment="Left" Height="33" VerticalAlignment="Center" Width="64" Margin="464,0,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p56" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="464,205,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p66" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="464,239,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p76" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="464,277,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p46" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="463,168,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p17" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="63" Margin="532,70,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p27" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="532,105,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p37" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="532,139,0,0" Stroke="Black"/>
-        <Rectangle HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="532,173,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p57" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="532,207,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p67" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="532,241,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p77" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="532,279,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p47" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="532,173,0,0" Stroke="Black"/>
+        <Rectangle x:Name="p00" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="65,37,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p03" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="268,37,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p01" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="133,37,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p02" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="200,37,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p04" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="336,37,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p05" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="65" Margin="403,37,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p06" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="468,37,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p07" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="532,37,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p10" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="64" Margin="65,70,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p20" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="65,105,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p30" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="65,139,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="65,173,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p50" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="65,207,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p60" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="65,241,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p70" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="65,279,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p40" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="65,173,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p11" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="64" Margin="133,70,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p21" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="133,105,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p31" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="133,139,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="133,173,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p51" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="133,207,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p61" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="133,241,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p71" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="133,279,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p41" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="133,173,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p12" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="64" Margin="197,69,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p22" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="197,104,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p32" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="197,138,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="33" VerticalAlignment="Center" Width="64" Margin="197,0,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p52" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="197,205,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p62" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="197,239,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p72" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="197,277,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p42" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="197,172,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p13" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="64" Margin="268,70,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p23" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="268,105,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p33" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="268,139,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="268,173,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p53" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="268,207,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p63" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="268,241,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p73" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="268,279,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p43" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="268,173,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p14" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="64" Margin="336,70,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p24" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="336,105,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p34" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="336,139,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="336,173,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p54" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="336,207,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p64" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="336,241,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p74" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="336,279,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p44" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="336,173,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p15" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="64" Margin="400,70,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p25" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="400,105,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p35" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="400,139,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="400,173,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p55" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="400,207,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p65" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="400,241,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p75" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="400,279,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p45" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="400,173,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p16" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="64" Margin="464,69,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p26" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="464,104,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p36" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="464,138,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="33" VerticalAlignment="Center" Width="64" Margin="464,0,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p56" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="464,205,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p66" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="464,239,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p76" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="464,277,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p46" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="463,168,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p17" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="63" Margin="532,70,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p27" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="532,105,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p37" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="532,139,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="532,173,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p57" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="532,207,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p67" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="532,241,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p77" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="532,279,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p47" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="532,173,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
         <Rectangle x:Name="fill8" HorizontalAlignment="Left" Height="40" Margin="533,384,0,0" Stroke="Black" VerticalAlignment="Top" Width="64" Fill="#FFFF1D1D"/>
         <Rectangle x:Name="fill4" HorizontalAlignment="Left" Height="40" Margin="272,384,0,0" Stroke="Black" VerticalAlignment="Top" Width="64" Fill="#FF1B4528"/>
         <Rectangle x:Name="fill5" HorizontalAlignment="Left" Height="40" Margin="341,384,0,0" Stroke="Black" VerticalAlignment="Top" Width="64" Fill="#FFE90B94"/>
@@ -87,44 +591,310 @@
         <Rectangle x:Name="fill1" HorizontalAlignment="Left" Height="40" Margin="65,384,0,0" Stroke="Black" VerticalAlignment="Top" Width="64" Fill="#FF000FFD"/>
         <Rectangle x:Name="fill6" HorizontalAlignment="Left" Height="40" Margin="400,384,0,0" Stroke="Black" VerticalAlignment="Top" Width="64" Fill="#FF1BA4FF"/>
         <Rectangle x:Name="fill7" HorizontalAlignment="Left" Height="40" Margin="464,384,0,0" Stroke="Black" VerticalAlignment="Top" Width="64" Fill="#FF52FF13"/>
-        <Rectangle x:Name="p80" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="65,312,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p81" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="133,312,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p82" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="197,310,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p83" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="268,312,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p84" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="336,312,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p85" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="400,312,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p86" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="464,310,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p87" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="532,312,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p90" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="61,345,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p91" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="129,345,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p92" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="193,343,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p93" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="264,345,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p94" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="332,345,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p95" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="396,345,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p96" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="460,343,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p97" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="528,345,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p08" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="595,38,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p18" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="63" Margin="595,71,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p28" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="595,106,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p38" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="595,140,0,0" Stroke="Black"/>
-        <Rectangle HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="595,174,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p58" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="595,208,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p68" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="595,242,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p78" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="595,280,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p48" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="595,174,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p88" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="595,313,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p98" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="591,346,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p09" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="658,38,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p19" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="63" Margin="658,71,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p29" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="658,106,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p39" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="658,140,0,0" Stroke="Black"/>
-        <Rectangle HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="658,174,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p59" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="658,208,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p69" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="658,242,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p79" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="658,280,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p49" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="658,174,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p89" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="658,313,0,0" Stroke="Black"/>
-        <Rectangle x:Name="p99" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="654,346,0,0" Stroke="Black"/>
+        <Rectangle x:Name="p80" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="65,312,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p81" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="133,312,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p82" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="197,310,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p83" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="268,312,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p84" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="336,312,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p85" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="400,312,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p86" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="464,310,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p87" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="532,312,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p90" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="61,345,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p91" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="129,345,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p92" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="193,343,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p93" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="264,345,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p94" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="332,345,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p95" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="64" Margin="396,345,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p96" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="64" Margin="460,343,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p97" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="528,345,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p08" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="595,38,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p18" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="63" Margin="595,71,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p28" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="595,106,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p38" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="595,140,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="595,174,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p58" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="595,208,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p68" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="595,242,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p78" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="595,280,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p48" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="595,174,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p88" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="595,313,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p98" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="591,346,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p09" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="658,38,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p19" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="63" Margin="658,71,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p29" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="658,106,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p39" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="658,140,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="658,174,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p59" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="658,208,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p69" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="658,242,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p79" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="658,280,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p49" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="63" Margin="658,174,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p89" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="658,313,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="p99" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="63" Margin="654,346,0,0" Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
         <Rectangle x:Name="brush1" HorizontalAlignment="Left" Height="40" Margin="622,379,0,0" Stroke="Black" VerticalAlignment="Top" Width="64" Fill="Black"/>
 
     </Grid>
