@@ -1,4 +1,6 @@
-﻿Class MainWindow
+﻿Imports System.Reflection
+
+Class MainWindow
     Private Sub fill1_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles fill1.MouseDown, fill2.MouseDown, fill3.MouseDown, fill4.MouseDown, fill5.MouseDown, fill6.MouseDown, fill7.MouseDown, fill8.MouseDown, fill9.MouseDown, fill10.MouseDown, fill11.MouseDown, fill12.MouseDown, fill13.MouseDown, fill14.MouseDown, fill15.MouseDown, fill16.MouseDown
         brush1.Fill = sender.fill
     End Sub
@@ -15,12 +17,52 @@
     End Sub
 
     Private Sub Button_Click(sender As Object, e As RoutedEventArgs)
-        For Each r In Grid1.Children
-            Dim s As String
-            s = r.name
-            If s.StartsWith("p") Then
-                r.fill = New SolidColorBrush(Colors.WhiteSmoke)
+        For index = 0 To 99
+            getRect(index).Fill = New SolidColorBrush(Colors.White)
+        Next
+    End Sub
+    Private Function getRect(i As Integer) As Rectangle
+        Dim s As String
+        If i < 10 Then
+            s = "p0" & i
+        Else
+            s = "p" & i
+        End If
+        For Each u In Grid1.Children
+
+            If u.name.Startswith(s) Then
+                Return u
             End If
+        Next
+        Return Nothing
+    End Function
+
+    Private Sub top_Click(sender As Object, e As RoutedEventArgs) Handles top.Click
+        For index = 0 To 49
+            getRect(index).Fill = brush1.Fill
+        Next
+    End Sub
+
+    Private Sub bottom_Click(sender As Object, e As RoutedEventArgs) Handles bottom.Click
+        For index = 50 To 99
+            getRect(index).Fill = brush1.Fill
+        Next
+    End Sub
+
+    Private Sub left_Click(sender As Object, e As RoutedEventArgs) Handles left.Click
+        For row = 0 To 9
+            For col = 0 To 4
+                getRect(row * 10 + col).Fill = brush1.Fill
+            Next
+        Next
+
+    End Sub
+
+    Private Sub right_Click(sender As Object, e As RoutedEventArgs) Handles right.Click
+        For row = 0 To 9
+            For col = 5 To 9
+                getRect(row * 10 + col).Fill = brush1.Fill
+            Next
         Next
     End Sub
 End Class
