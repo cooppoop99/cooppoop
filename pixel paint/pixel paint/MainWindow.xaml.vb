@@ -65,4 +65,38 @@ Class MainWindow
             Next
         Next
     End Sub
+
+    Private Sub diagnol_Click(sender As Object, e As RoutedEventArgs) Handles diagnol.Click
+        For row = 0 To 9
+            For col = 0 To 9
+                If row >= col Then
+                    getRect(row * 10 + col).Fill = brush1.Fill
+                End If
+            Next
+        Next
+    End Sub
+
+    Private Sub roow_Click(sender As Object, e As RoutedEventArgs) Handles roow.Click
+        For row = 0 To 9 Step 2
+            For col = 0 To 9
+                getRect(row * 10 + col).Fill = brush1.Fill
+            Next
+        Next
+    End Sub
+
+    Private Sub cullum_Click(sender As Object, e As RoutedEventArgs) Handles cullum.Click
+        For row = 0 To 9
+            For col = 0 To 9 Step 2
+                getRect(row * 10 + col).Fill = brush1.Fill
+            Next
+        Next
+    End Sub
+
+    Private Sub buttomright_Click(sender As Object, e As RoutedEventArgs) Handles buttomright.Click
+        For row = 5 To 9
+            For col = 5 To 9
+                getRect(row * 10 + col).Fill = brush1.Fill
+            Next
+        Next
+    End Sub
 End Class

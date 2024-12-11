@@ -196,6 +196,10 @@
         <Button Content="Button" HorizontalAlignment="Left" Height="0" Margin="654,152,0,0" Grid.Row="1" VerticalAlignment="Top"/>
         <Button x:Name="right" Content="right" HorizontalAlignment="Left" Margin="654,23,0,0" Grid.Row="2" VerticalAlignment="Top" Width="40" Height="29"/>
         <Button x:Name="left" Content="left" HorizontalAlignment="Left" Margin="661,136,0,0" Grid.Row="1" VerticalAlignment="Top" Width="45" Height="28" Grid.RowSpan="2"/>
+        <Button x:Name="diagnol" Content="diagnol" HorizontalAlignment="Left" Margin="576,60,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+        <Button x:Name="roow" Content="every other row" HorizontalAlignment="Left" Margin="640,60,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+        <Button x:Name="cullum" Content="every other column" HorizontalAlignment="Left" Margin="674,85,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+        <Button x:Name="buttomright" Content="Bottom Right" HorizontalAlignment="Left" Margin="715,10,0,0" Grid.Row="2" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
