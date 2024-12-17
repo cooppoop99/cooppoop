@@ -99,4 +99,9 @@ Class MainWindow
             Next
         Next
     End Sub
+    For index = 2 To 4
+    For index2 = 1 To 3
+    debug.print(index2) 
+    Next
+    Next
 End Class
